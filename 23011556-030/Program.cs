@@ -14,6 +14,8 @@ namespace _23011556_030
             obj.Run();
             Class2 obj1 = new Class2();
             obj1.Calculator();
+            Class3 obj2 = new Class3();
+            obj2.Grade();
         }
     }
 }
