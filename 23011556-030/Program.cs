@@ -16,6 +16,8 @@ namespace _23011556_030
             obj1.Calculator();
             Class3 obj2 = new Class3();
             obj2.Grade();
+            Class4 obj3 = new Class4();
+            obj3.Sum();
         }
     }
 }
