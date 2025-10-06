@@ -22,6 +22,9 @@ namespace _23011556_030
             obj4.Table();
             Class6 obj5 = new Class6();
             obj5.Factorial();
+            Class7 obj6= new Class7();
+            obj6.Reverse();
+
         }
     }
 }
