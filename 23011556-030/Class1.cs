@@ -10,7 +10,16 @@ namespace _23011556_030
     {
         public void Run()
         {
-            Console.WriteLine(" Hello ");
+            Console.WriteLine(" Enter Number: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("Number " + num + " is even");
+            }
+            else
+            {
+                Console.WriteLine("Number " + num + " is odd");
+            }
         }
     }
 }
