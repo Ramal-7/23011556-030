@@ -14,7 +14,7 @@ namespace _23011556_030
             Console.WriteLine("Enter number: ");
             int num = Convert.ToInt32(Console.ReadLine());
             int result;
-            for (int i = 0; i <= 10; i++)
+            for (int i=1; i <= 10; i++)
             {
                 result = num * i;
                 Console.WriteLine($"{num} * {i} = {result}");
