@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace _23011556_030
 {
-    internal class Program
+    internal class Class1
     {
-        static void Main(string[] args)
+        public void Run()
         {
-            Class1 obj = new Class1();
-            obj.Run();
+            Console.WriteLine(" Hello ");
         }
     }
 }
