@@ -12,6 +12,8 @@ namespace _23011556_030
         {
             Class1 obj = new Class1();
             obj.Run();
+            Class2 obj1 = new Class2();
+            obj1.Calculator();
         }
     }
 }
