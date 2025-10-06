@@ -20,6 +20,8 @@ namespace _23011556_030
             obj3.Sum();
             Class5 obj4 = new Class5();
             obj4.Table();
+            Class6 obj5 = new Class6();
+            obj5.Factorial();
         }
     }
 }
