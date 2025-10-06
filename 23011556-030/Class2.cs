@@ -11,6 +11,7 @@ namespace _23011556_030
     {
        public void Calculator()
         {
+            Console.WriteLine("\n\t Q#2 Simple calculator \n");
             Console.WriteLine("Enter 1st number: ");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter 2nd number: ");
@@ -29,15 +30,15 @@ namespace _23011556_030
             {
                 case 1:
                     result = a + b;
-                    Console.WriteLine("$Result : {a} + {b} = {result}");
+                    Console.WriteLine($"Result : {a} + {b} = {result}");
                     break;
                 case 2:
                     result = a - b;
-                    Console.WriteLine("$Result : {a} - {b} = {result}");
+                    Console.WriteLine($"Result : {a} - {b} = {result}");
                     break;
                 case 3:
                     result = a * b;
-                    Console.WriteLine("$Result : {a} * {b} = {result}");
+                    Console.WriteLine($"Result : {a} * {b} = {result}");
                     break;
                 case 4:
                     if (b == 0)
@@ -47,7 +48,7 @@ namespace _23011556_030
                     else
                     {
                         result = a / b;
-                        Console.WriteLine("$Result : {a} / {b} = {result}");
+                        Console.WriteLine($"Result : {a} / {b} = {result}");
                     }
                     break;
                 default:
