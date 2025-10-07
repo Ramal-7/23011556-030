@@ -11,7 +11,7 @@ namespace _23011556_030
         public void Run()
         {
             Console.WriteLine("\n\t Q#1 Check even odd");
-            Console.WriteLine(" Enter Number: ");
+            Console.WriteLine("Enter Number: ");
             int num = Convert.ToInt32(Console.ReadLine());
             if (num % 2 == 0)
             {

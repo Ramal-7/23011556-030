@@ -10,7 +10,7 @@ namespace _23011556_030
     {
         static void Main(string[] args)
         {
-            /*ass1 obj = new Class1();
+            Class1 obj = new Class1();
             obj.Run();
             Class2 obj1 = new Class2();
             obj1.Calculator();
@@ -25,9 +25,11 @@ namespace _23011556_030
             Class7 obj6= new Class7();
             obj6.Reverse();
             Class8 obj7 = new Class8();
-            obj7.Array();*/
+            obj7.Array();
             Class9 obj8 = new Class9();
-            obj8.CheckinArray();
+            obj8.CheckinArray(); 
+            Class10 obj9 = new Class10();
+            obj9.Search();
 
         }
     }

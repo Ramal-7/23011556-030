@@ -10,6 +10,7 @@ namespace _23011556_030
     {
         public void Array()
         {
+            Console.WriteLine("\n\t Q#8 Min and Max in array ");
             int[] arr = { 1, 80, 24, 6, 5, 9, 20, 82, 45, 67 };
             int min = arr[0];
             int max = arr[0];
