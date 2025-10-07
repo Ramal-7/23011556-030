@@ -13,7 +13,7 @@ namespace _23011556_030
             int[] arr = { 1, 80, 24, 6, 5, 9, 20, 82, 45, 67 };
             int min = arr[0];
             int max = arr[0];
-            for (int i = 1; i<arr.Length; i++)
+            for (int i = 1; i < arr.Length; i++)
             {
                 if (arr[i] < min)
                 {
@@ -27,4 +27,5 @@ namespace _23011556_030
             Console.WriteLine("Maximum number in array is " + max);
             Console.WriteLine("Minimum number in array is " + min);
         }
+    }
 }
