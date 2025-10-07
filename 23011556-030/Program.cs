@@ -23,9 +23,11 @@ namespace _23011556_030
             Class6 obj5 = new Class6();
             obj5.Factorial();
             Class7 obj6= new Class7();
-            obj6.Reverse();*/
+            obj6.Reverse();
             Class8 obj7 = new Class8();
-            obj7.Array();
+            obj7.Array();*/
+            Class9 obj8 = new Class9();
+            obj8.CheckinArray();
 
         }
     }
