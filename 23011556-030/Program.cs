@@ -24,6 +24,8 @@ namespace _23011556_030
             obj5.Factorial();
             Class7 obj6= new Class7();
             obj6.Reverse();
+            Class8 obj7 = new Class8();
+            obj7.Array();
 
         }
     }
